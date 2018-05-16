@@ -46,7 +46,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "",
-        "header_custom": "<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\" crossorigin=\"anonymous\">\n<style>\n@media (max-width: 767px)\n.btn {\n    font-size: 1rem !important;\n}\n</style>",
+        "header_custom": "<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\" crossorigin=\"anonymous\">\n<style>\n@media (max-width: 767px)\n.btn {\n    font-size: 1rem !important;\n}\n</style>\n<script>      \n      window.fbAsyncInit = function() {\n        FB.init({\n          appId      : '95100348886',\n          xfbml      : true,\n          version    : 'v2.6'\n        });\n      };\n      (function(d, s, id){\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) {return;}\n        js = d.createElement(s); js.id = id;\n        js.src = \"//connect.facebook.net/en_US/sdk.js\";\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));      \n    </script>\n    <div class=\"fb-messengermessageus\" \n         messenger_app_id=\"95100348886\" \n         page_id=\"tcmhomeremodelingLLC\" \n         color=\"blue\"\n         size=\"large\">\n    </div>",
         "footer_custom": "",
         "html_before": ""
       },
