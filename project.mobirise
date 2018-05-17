@@ -52,7 +52,7 @@
         "main": true,
         "title": "Home",
         "meta_descr": "A Professional & Licensed South Jersey Home Remodeling Company",
-        "header_custom": "<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\" crossorigin=\"anonymous\">\n<style>\n@media (max-width: 767px)\n.btn {\n    font-size: 1rem !important;\n}\n\n.cid-qRZikE8RaZ {\n  padding: 0 12em;\n}\n@media (max-width: 768px) {\n  .cid-qRZikE8RaZ {\n    padding: 0;\n  }\n}\n\n</style>\n",
+        "header_custom": "<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\" crossorigin=\"anonymous\">\n<style>\n@media (max-width: 767px)\n.btn {\n    font-size: 1rem !important;\n}\n\n..cid-qRZikE8RaZ {\n    padding: 0 12em 75px;\n}\n@media (max-width: 768px) {\n  .cid-qRZikE8RaZ {\n    padding: 0;\n  }\n}\n\n</style>\n",
         "footer_custom": "",
         "html_before": ""
       },
