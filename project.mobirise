@@ -176,6 +176,14 @@
             },
             ".card-title": {
               "text-align": "center"
+            },
+            ".cid-qRZikE8RaZ": {
+              "padding": "0 12em"
+            },
+            "@media (max-width: 768px)": {
+              ".cid-qRZikE8RaZ": {
+                "padding": "0"
+              }
             }
           },
           "_name": "features3",
