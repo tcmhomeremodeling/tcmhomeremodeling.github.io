@@ -1929,3 +1929,24 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
+.cid-qUITWIj33r {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-qUITWIj33r .image-block {
+  margin: auto;
+}
+.cid-qUITWIj33r figcaption {
+  position: relative;
+}
+.cid-qUITWIj33r figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qUITWIj33r .image-block {
+    width: 100% !important;
+  }
+}
