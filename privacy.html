@@ -73,6 +73,49 @@
   attribution="setup_tool"
   page_id="1924870337805023">
 </div>
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            $(".fb-album-container").each(function () {
+                $(this).FacebookAlbumBrowser({
+                    account: "tcmhomeremodelingLLC",
+                    accessToken: "1710787572361681|88841fe4f19b5d7445f90ec4f7ae62ac",
+                    //skipAlbums: ["Profile Pictures", "Timeline Photos"],
+                    //includeAlbums: ["Profile Pictures", "Timeline Photos"],
+                    onlyAlbum: $(this).attr("data-album"),
+                    showComments: false,
+                    commentsLimit: 3,
+                    showAccountInfo: true,
+                    showImageCount: true,
+                    showImageText: false,
+                    shareButton: false,
+                    albumsPageSize: 0,
+                    thumbnailSize: 300,
+                    photosPageSize: 1,
+                    lightbox: true,
+                    photosCheckbox: false,
+					pluginImagesPath: "../src/",
+                    likeButton: false,
+                    shareButton: false,
+                    addThis: "ra-52638e915dd79612",
+                    photoChecked: function (photo) {
+                        console.log("PHOTO CHECKED: " + photo.id + " - " + photo.url + " - " + photo.thumb);
+                        console.log("CHECKED PHOTOS COUNT: " + this.checkedPhotos.length);
+                    },
+                    photoUnchecked: function (photo) {
+                        console.log("PHOTO UNCHECKED: " + photo.id + " - " + photo.url + " - " + photo.thumb);
+                        console.log("CHECKED PHOTOS COUNT: " + this.checkedPhotos.length);
+                    },
+                    albumSelected: function (photo) {
+                        console.log("ALBUM CLICK: " + photo.id + " - " + photo.url + " - " + photo.thumb);
+                    },
+                    photoSelected: function (photo) {
+                        console.log("PHOTO CLICK: " + photo.id + " - " + photo.url + " - " + photo.thumb);
+                    }
+                });
+            });
+        });
+    </script>
 <!-- /Google Analytics -->
 
 
@@ -104,7 +147,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.me/w">free html5 templates</a></section><section class="cid-qUJnWG5BLn mbr-fullscreen" id="header2-1f">
+<section class="engine"><a href="https://mobirise.me/y">free html site templates</a></section><section class="cid-qUJnWG5BLn mbr-fullscreen" id="header2-1f">
 
     
 
@@ -204,7 +247,7 @@ Your generated terms has been copied to the clipboard.
                 </div>
                 <div data-form-type="formoid">
                     <div data-form-alert="" hidden="">Thanks for filling out the form!</div>
-                    <form class="block mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="OLBfF4nraynx78095HutVgFrcjwF397mYgjP02XQarHTGy3yjoCZ7aJOr8ILbCXqHlJ30sUJJxA4oWHrWTOkD3YXK18fBWHWjKJnk2FR9iXHz+yj+9xiem8aLFdxcsRh" data-form-field="Email">
+                    <form class="block mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="VhL59NRO1Q5c4WXtuPJA9LXn+1gItAAm7XQiV30mIhqJgM+ogFZmLWryOdXPVOkgkUJudyXeS0XDiHGArX017K+GX3zBsFnDqFNJaJ+eJyZVEJeliSYGL3Mt5jn6NNkg" data-form-field="Email">
                         <div class="row">
                             <div class="col-md-6 multi-horizontal" data-for="name">
                                 <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Your Name" required="" id="name-form4-1i">
